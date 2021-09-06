@@ -1,8 +1,8 @@
-    Route::get('/', '[% controller_name %]@index')
+    Route::get('/', [[% controller_name %]::class,'index'])
          ->name('[% index_route_name %]');
-    Route::get('/create','[% controller_name %]@create')
+    Route::get('/create',[[% controller_name %]::class,'create'])
          ->name('[% create_route_name %]');
-    Route::get('/show/{[% model_name_singular_variable %]}','[% controller_name %]@show')
+    Route::get('/show/{[% model_name_singular_variable %]}',[[% controller_name %]::class,'show'])
          ->name('[% show_route_name %]')[% route_id_clause %];
     Route::get('/{[% model_name_singular_variable %]}/edit','[% controller_name %]@edit')
          ->name('[% edit_route_name %]')[% route_id_clause %];
