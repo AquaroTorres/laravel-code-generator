@@ -7,7 +7,7 @@
         <div class="panel-heading clearfix">
 
             <div class="pull-left">
-                <h4 class="mt-5 mb-5">{{ !empty([% model_header %]) ? [% model_header %] : '[% model_name_title %]' }}</h4>
+                <h4>{{ !empty([% model_header %]) ? [% model_header %] : '[% model_name_title %]' }}</h4>
             </div>
             <div class="btn-group btn-group-sm pull-right" role="group">
 
