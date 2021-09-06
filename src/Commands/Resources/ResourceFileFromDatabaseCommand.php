@@ -18,7 +18,7 @@ use CrestApps\CodeGenerator\Traits\Migration;
 use DB;
 use Exception;
 use File;
-use CrestApps\CodeGenerator\Support\Str;
+//use CrestApps\CodeGenerator\Support\Str;
 
 class ResourceFileFromDatabaseCommand extends ResourceFileCommandBase
 {
