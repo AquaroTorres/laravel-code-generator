@@ -1,6 +1,8 @@
 
+use App\Http\Controllers\[% controller_name %];
+
 Route::group([
-    [% prefix %]
+    [% prefix %] 'as' => '[% table %].'
 ], function () {
 [% routes %]
 });
