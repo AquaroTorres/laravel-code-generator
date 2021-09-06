@@ -19,7 +19,7 @@
         <div class="panel-heading clearfix">
 
             <div class="pull-left">
-                <h4 class="mt-5 mb-5">[% model_plural %]</h4>
+                <h4>[% model_plural %]</h4>
             </div>
 
             <div class="btn-group btn-group-sm pull-right" role="group">
@@ -57,7 +57,7 @@
 
                                     <div class="btn-group btn-group-xs pull-right" role="group">
                                         <a href="{{ route('[% show_route_name %]', $[% model_name_singular_variable %]->[% primary_key %] ) }}" class="btn btn-info" title="[% show_model %]">
-                                            <span class="bi bi-open" aria-hidden="true"></span>
+                                            <span class="bi bi-eye" aria-hidden="true"></span>
                                         </a>
                                         <a href="{{ route('[% edit_route_name %]', $[% model_name_singular_variable %]->[% primary_key %] ) }}" class="btn btn-primary" title="[% edit_model %]">
                                             <span class="bi bi-pencil" aria-hidden="true"></span>
