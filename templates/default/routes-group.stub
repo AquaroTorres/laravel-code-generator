@@ -1,5 +1,5 @@
 
-use App\Http\Controllers\[% controller_name %];
+use App\Http\Controllers\;
 
 Route::group([
     [% prefix %] 'as' => '[% table %].'
